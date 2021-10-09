@@ -1,0 +1,155 @@
+/* CSS for header */
+
+.header {
+    
+    margin: -10px -10px 50px -10px;
+    overflow: auto;
+    background-color: #f1f1f1;
+  }
+  
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    border-radius: 4px;
+  }
+  
+  .header a.header-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(13, 12, 68);
+  }
+  
+  .header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .header a.active {
+    background-color:greenyellow;
+    color: rgb(13, 12, 68);
+    font-weight: bold;
+  }
+  
+  .header-right {
+    float: right;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+
+  /* CSS for header ends */
+ 
+   .title-main{
+      margin-left: 36%;
+      margin-top: 50px;
+      font-size: 50px;
+      color:rgb(13, 12, 68);
+      font-weight:bold;
+  } 
+
+
+
+  /* CSS for hero region */
+
+  .hero{
+      display: flex;
+  }
+  .graph-image {
+    width: 33%;
+    overflow: visible;  
+    float: right;
+    }
+
+  .hero-text {
+      margin-top: 30px;
+      overflow: visible;
+      float: left;
+      margin-left: 15px;
+  }  
+
+  .hero-title{
+      font-size:40px ;
+      color: rgb(13, 12, 68);
+  }
+
+  .hero-para{
+    margin-top: 25px;  
+    font-size:25px;
+      color: grey;
+  }
+  .hero-para-2{
+    font-size:25px;
+    color: grey;
+}
+
+/* End of CSS for hero */
+
+
+/* CSS for buttons */
+
+.buttons{
+    height: 50px;
+    display: flex;
+    margin: 5px;
+}
+.button-eng{
+    background-color: greenyellow;
+    color: rgb(13, 12, 68);
+    font-weight: bold;
+    font-size: 30px;
+    width: 50%;    
+    border: none;
+    border-radius: 10px;
+    margin-right: 5px;
+    
+}
+
+.button-med{
+    background-color: greenyellow;
+    color: rgb(13, 12, 68);
+    font-weight: bold;
+    font-size: 30px;
+    width: 50%;    
+    border: none;
+    border-radius: 10px;
+    margin-left: 5px;
+    
+}
+
+/*End of  CSS for buttons */
+
+
+/* CSS for features */
+
+.features-title{
+    margin: 50px 0 30px 25px;
+    color: rgb(13, 12, 68);
+    font-weight: bold;
+    font-size: 40px;
+
+}
+/* .features{
+    align-items:flex-start;
+} */
+
+.features{
+    display: flex;
+}
+.f{
+    flex: 20%;
+    padding: 5px;
+    size: 100px;
+}
